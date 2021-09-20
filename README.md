@@ -3,6 +3,7 @@ I decided to fork dsoal for the express purpose of providing daily builds for th
 do not have the time to build it themselves.
 
 # DSOAL
+[![Build status](https://ci.appveyor.com/api/projects/status/mi1uhift3beqebot?svg=true)](https://ci.appveyor.com/project/wof8317/dsoal)
 
 This project is for a DirectSound DLL replacement. It implements the
 DirectSound interfaces by translating the calls to OpenAL, and fools
