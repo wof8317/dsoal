@@ -11,7 +11,7 @@ environment:
 
 after_build:
 - 7z a ..\dsoal.zip "%APPVEYOR_BUILD_FOLDER%\build\%CFG%\dsound.dll" "%APPVEYOR_BUILD_FOLDER%\README.md" "%APPVEYOR_BUILD_FOLDER%\LICENSE"
-- appveyor PushArtifact dsoal.zip
+- appveyor PushArtifact ..\dsoal.zip
 
 artifacts:
 - path: dsoal.zip
