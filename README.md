@@ -1,3 +1,7 @@
+# Forword by wof8317
+I decided to fork dsoal for the express purpose of providing daily builds for those who simply
+do not have the time to build it themselves.
+
 # DSOAL
 
 This project is for a DirectSound DLL replacement. It implements the
